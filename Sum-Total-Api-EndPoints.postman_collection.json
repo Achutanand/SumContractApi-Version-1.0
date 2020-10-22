@@ -1,0 +1,59 @@
+{
+	"info": {
+		"_postman_id": "f1fdf395-f704-4452-96a4-7dfba52565b2",
+		"name": "Sum-Total-Api-EndPoints",
+		"description": "Provides the EndPoint URLs to try out.",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "Promting the Service to Provide Question.",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": ""
+				},
+				"description": "Promting the Service to Provide Question with Numbers to Add."
+			},
+			"response": []
+		},
+		{
+			"name": "Get the Question from the Server",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": ""
+				},
+				"description": "Get the Question from the Server"
+			},
+			"response": []
+		},
+		{
+			"name": "Execute to Get the Response from the Server With a Wrong Sum",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": ""
+				},
+				"description": "Execute to Get the Response from the Server by Providing the values and the totalSum as an Input to Validate and get the succesffull response back."
+			},
+			"response": []
+		},
+		{
+			"name": "Execute to Get the Response from the Server With a Correct Sum",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": ""
+				},
+				"description": "Providing the Correct Sum as an Input."
+			},
+			"response": []
+		}
+	],
+	"protocolProfileBehavior": {}
+}
